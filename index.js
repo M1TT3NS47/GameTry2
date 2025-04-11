@@ -7,7 +7,7 @@ let x = 0;
 let y = 0;
 
 function update(){
-  ctx.fillRect(0, 0, 50, 50)
+  ctx.fillRect(x, y, 50, 50)
   reqestAnimationFrame(update)
 }
 update()
